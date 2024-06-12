@@ -9,7 +9,7 @@ public class TesteVendaProduto {
 		//cliente.criarCliente();
 		Produto produto = new Produto();
 		produto.cadastrarProdutos();
-		produto.listarProdutos();
+		
 	}
 
 }
