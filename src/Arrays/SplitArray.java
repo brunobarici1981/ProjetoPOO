@@ -21,10 +21,16 @@ public class SplitArray {
 			// System.out.println(arraySplit[i]);
 
 		}
-		List<String> convertArrayTolist = Arrays.asList(arraySplit);
+		List<String> convertArrayTolist = Arrays.asList(arraySplit);//converter array to list
+		String[] array = convertArrayTolist.toArray(new String[convertArrayTolist.size()]);//converter list to array
+		int i=0;
+		for (String string : array) {
+			System.out.println(array[i++]);
+			
+		}
 
-		for (String array : convertArrayTolist) {
-			System.out.println(array);
+		for (String array1 : convertArrayTolist) {
+			System.out.println(array1);
 		}
 		boolean sair=true;
 
